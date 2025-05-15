@@ -2,7 +2,6 @@
 # print("100")
 # print(2 / 100)
 
-
 #calculate area of a rectangle
 print("The length of a rectangle is 20 and the width is 15")
 length = 20
