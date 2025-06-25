@@ -3,8 +3,12 @@
 # Hint: Check if it contains an “@” symbol and “.” symbol.
 # email = input("Insert your email address: ")
 # email = str(email)
+def email_address(email):
+    if "@" and "." in email:
+        access = " Welcome home Billjoy"
+    else:
+        access ="Email inserted Incorrectly"
+    return access
 email = input("Insert your email address: ")
-if "@" and "." in email:
-    print(" Welcome home Billjoy")
-else:
-    print("Email inserted Incorrectly")
+em = email_address(email)
+print(em)

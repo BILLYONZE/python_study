@@ -1,0 +1,1 @@
+net_salary = gross_salary - (nhif + nhdf +  nssf + payee)
